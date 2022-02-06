@@ -12,12 +12,12 @@ public class URI1253 {
             for (int j = 0; j < p.length; j++) {
                 if((char) (p[j] - number) < 65) {
                     p[j] = (char) (p[j] + 26 - number);
-                    System.out.print(p[j]);
                 }else{
                     p[j] = (char) (p[j] - number);
-                    System.out.print(p[j]);
                 }
+                System.out.print(p[j]);
             }
+            System.out.println();
         }
     }
 }
