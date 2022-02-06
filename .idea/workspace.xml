@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3aec97b4-47c6-41a2-aee1-fab895630706" name="Changes" comment="gitignore">
-      <change afterPath="$PROJECT_DIR$/lab-01-01/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri-midterm/src/URI1024.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri-midterm/src/URI1234.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri-midterm/uri-midterm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="3aec97b4-47c6-41a2-aee1-fab895630706" name="Changes" comment="1234 solved">
+      <change afterPath="$PROJECT_DIR$/uri-midterm/src/URI1253.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +41,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.URI1234">
+  <component name="RunManager" selected="Application.URI1253">
     <configuration name="URI1024" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="URI1024" />
       <module name="uri-midterm" />
@@ -60,8 +56,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="URI1253" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="URI1253" />
+      <module name="uri-midterm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.URI1253" />
         <item itemvalue="Application.URI1234" />
         <item itemvalue="Application.URI1024" />
       </list>
@@ -90,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643793041506</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1234 solved">
+      <created>1644050683286</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1644050683286</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,6 +118,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
+    <MESSAGE value="1234 solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="1234 solved" />
   </component>
 </project>
