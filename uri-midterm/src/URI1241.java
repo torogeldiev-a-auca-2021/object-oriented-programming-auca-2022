@@ -20,29 +20,29 @@ public class URI1241 {
                         } else {
                             res = "nao encaixa";
                         }
-                    }
-                }
-                if(b.length > a.length){
-                    String t = message.substring(b.length - a.length, b.length);
-                    if (t.equals(message)) {
-                        res = "encaixa";
+                    } else if (b.length > a.length) {
+                        String t = message.substring(b.length - a.length, b.length);
+                        if (t.equals(message)) {
+                            res = "encaixa";
+                        } else {
+                            res = "nao encaixa";
+                        }
+
                     } else {
-                        res = "nao encaixa";
+                        if (msg.equals(message)) {
+                            res = "encaixa";
+                        } else {
+                            res = "nao encaixa";
+                        }
                     }
 
-                }
-                if(a.length == b.length){
-                    if(msg.equals(message)){
-                        res = "encaixa";
-                    }else{
-                        res = "nao encaixa";
-                    }
                 }
             }
             System.out.println(res);
         }
     }
 }
+
 
 
 
