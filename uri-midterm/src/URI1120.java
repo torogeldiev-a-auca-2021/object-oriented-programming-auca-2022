@@ -11,12 +11,13 @@ public class URI1120 {
         for (int i = 0 ; i < a.length; i++){
             for(int j = 0; j < b.length; j++){
                 if(a[i] == b[j]){
-                    String aa = message.replace(a[i] ,' ');
-                    res = b[j] + aa;
+                    String aa = message.replace(a[i] ,'z');
+                    char [] c = aa.toCharArray();
+                    System.out.print(aa);
+
+                    }
                 }
 
             }
-        }
-        System.out.print(res);
     }
 }
