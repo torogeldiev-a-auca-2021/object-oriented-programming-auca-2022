@@ -6,6 +6,10 @@ public class URI1024 {
         int a = sc.nextInt();
         for (int i = 0; i <= a; i++) {
             String message = sc.nextLine();
+            char [] p = message.toCharArray();
+            for(int j = 0 ; j < p.length; j++ ){
+
+            }
             }
         }
     }

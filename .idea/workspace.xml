@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3aec97b4-47c6-41a2-aee1-fab895630706" name="Changes" comment="1238 runtime error">
+    <list default="true" id="3aec97b4-47c6-41a2-aee1-fab895630706" name="Changes" comment="1238 solved">
+      <change afterPath="$PROJECT_DIR$/uri-midterm/src/URI1241.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uri-midterm/src/URI1238.java" beforeDir="false" afterPath="$PROJECT_DIR$/uri-midterm/src/URI1238.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uri-midterm/src/URI1024.java" beforeDir="false" afterPath="$PROJECT_DIR$/uri-midterm/src/URI1024.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,14 +42,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.URI1238">
-    <configuration name="URI1024" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="URI1024" />
-      <module name="uri-midterm" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.URI1241">
     <configuration name="URI1168" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="URI1168" />
       <module name="uri-midterm" />
@@ -70,6 +64,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="URI1241" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="URI1241" />
+      <module name="uri-midterm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="URI1253" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="URI1253" />
       <module name="uri-midterm" />
@@ -79,11 +80,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.URI1241" />
         <item itemvalue="Application.URI1238" />
         <item itemvalue="Application.URI1253" />
         <item itemvalue="Application.URI1168" />
         <item itemvalue="Application.URI1234" />
-        <item itemvalue="Application.URI1024" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644153714565</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="1238 solved">
+      <created>1644155130175</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1644155130175</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,6 +175,7 @@
     <MESSAGE value="1168 accepted" />
     <MESSAGE value="1253 accepted" />
     <MESSAGE value="1238 runtime error" />
-    <option name="LAST_COMMIT_MESSAGE" value="1238 runtime error" />
+    <MESSAGE value="1238 solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="1238 solved" />
   </component>
 </project>
