@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3aec97b4-47c6-41a2-aee1-fab895630706" name="Changes" comment="01">
-      <change afterPath="$PROJECT_DIR$/uri-midterm/src/URI1332.java" afterDir="false" />
+    <list default="true" id="3aec97b4-47c6-41a2-aee1-fab895630706" name="Changes" comment="1332 first version of solution">
+      <change afterPath="$PROJECT_DIR$/uri-midterm/src/URI1235.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uri-midterm/src/URI1255.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uri-midterm/src/URI1272.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab-01-01/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab-01-01/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uri-midterm/src/URI1024.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/uri-midterm/src/URI1120.java" beforeDir="false" afterPath="$PROJECT_DIR$/uri-midterm/src/URI1120.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +45,21 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.URI1120">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="lab-01-01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="URI1024" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="URI1024" />
+      <module name="uri-midterm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="URI1120" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="URI1120" />
       <module name="uri-midterm" />
@@ -56,22 +74,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="URI1238" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="URI1238" />
-      <module name="uri-midterm" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="URI1241" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="URI1241" />
-      <module name="uri-midterm" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="URI1253" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="URI1253" />
+    <configuration name="URITest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="URITest" />
       <module name="uri-midterm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -79,11 +83,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.URITest" />
         <item itemvalue="Application.URI1120" />
+        <item itemvalue="Application.URI1024" />
         <item itemvalue="Application.URI11201" />
-        <item itemvalue="Application.URI1241" />
-        <item itemvalue="Application.URI1238" />
-        <item itemvalue="Application.URI1253" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644265968328</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="1332 first version of solution">
+      <created>1644270504933</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1644270504933</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,6 +210,7 @@
     <MESSAGE value="1241 wrong answer" />
     <MESSAGE value="&#10; 1241 Time limit exceeded" />
     <MESSAGE value="01" />
-    <option name="LAST_COMMIT_MESSAGE" value="01" />
+    <MESSAGE value="1332 first version of solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="1332 first version of solution" />
   </component>
 </project>
