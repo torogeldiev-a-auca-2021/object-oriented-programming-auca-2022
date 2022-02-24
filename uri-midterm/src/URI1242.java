@@ -12,7 +12,7 @@ public class URI1242 {
 
             }
         }
-        StringBuilder copy = new StringBuilder(vowels.toString());
+        StringBuilder copy = new StringBuilder(msg.toString());
         copy.reverse();
         if(msg.toString().equals(copy.toString())){
             System.out.println("S");
