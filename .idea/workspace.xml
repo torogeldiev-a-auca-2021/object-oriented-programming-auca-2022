@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3aec97b4-47c6-41a2-aee1-fab895630706" name="Changes" comment="1332 first version of solution">
+    <list default="true" id="3aec97b4-47c6-41a2-aee1-fab895630706" name="Changes" comment="solved">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab-02-01/lab-02-01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab-02-01/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab-02-01/src/Screen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab-02-01/src/Turtle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab-02-01/src/UserCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uri-midterm/src/URI1257.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uri-midterm/src/URI1273.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,11 +44,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.URI1241">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="lab-01-01" />
@@ -47,15 +57,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="URI1120" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="URI1120" />
+    <configuration name="URI1241" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="URI1241" />
       <module name="uri-midterm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="URI1241" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="URI1241" />
+    <configuration name="URI1273" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="URI1273" />
       <module name="uri-midterm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -77,11 +87,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.URI1273" />
         <item itemvalue="Application.URI1241" />
         <item itemvalue="Application.URI2242" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.URITest" />
-        <item itemvalue="Application.URI1120" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645681514531</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="solved">
+      <created>1646073243212</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1646073243212</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -212,6 +229,7 @@
     <MESSAGE value="&#10; 1241 Time limit exceeded" />
     <MESSAGE value="01" />
     <MESSAGE value="1332 first version of solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="1332 first version of solution" />
+    <MESSAGE value="solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="solved" />
   </component>
 </project>
