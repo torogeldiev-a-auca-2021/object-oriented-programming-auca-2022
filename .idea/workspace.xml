@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3aec97b4-47c6-41a2-aee1-fab895630706" name="Changes" comment="solved">
-      <change beforePath="$PROJECT_DIR$/uri-midterm/src/URI1257.java" beforeDir="false" afterPath="$PROJECT_DIR$/uri-midterm/src/URI1257.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uri-midterm/src/URI1551.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uri-midterm/src/URI1581.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646079189916</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="solved">
+      <created>1646079408477</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1646079408477</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
