@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class URI1242 {
+public class URI2242 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String vowels = sc.next();
