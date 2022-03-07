@@ -2,36 +2,36 @@ import java.util.Scanner;
 
 public class URI1239 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner scn = new Scanner(System.in);
+        while (scn.hasNext()) {
+            String msg = scn.nextLine();
+            StringBuilder mseg = new StringBuilder(msg);
+            int num1 = 0;
+            int num2 = 0;
+            for (int i = 0; i < mseg.length(); i++) {
+                if (mseg.charAt(i) == '_') {
+                    mseg.deleteCharAt(i);
+                    if (num1 == 0) {
+                        mseg.insert(i, "<i>");
+                        num1++;
 
-        while (sc.hasNext()) {
-            String msg = sc.nextLine();
-            String res = null;
-            int counter = 0;
-            int counter2 = 0;
-            for (int i = 0; i < msg.length(); i++) {
-                if (msg.charAt(i) == '_' && counter % 2 == 0) {
-                    counter++;
-                     res = msg.replace("_", "<i>");
+                    } else {
+                        mseg.insert(i, "</i>");
+                        num1 = 0;
+                    }
 
-                } else if (msg.charAt(i) == '_' && counter% 2 != 0) {
-                    counter++;
-                     res = msg.replace("_", "</i>");
-
-                }
-                if (msg.charAt(i) == '*' && counter2 % 2 == 0) {
-                    counter2++;
-                     res = msg.replace("_", "<b>");
-
-                } else if (msg.charAt(i) == '*' && counter2 % 2 != 0) {
-                    counter2++;
-                     res = msg.replace("_", "</b>");
-
+                } else if (mseg.charAt(i) == '*') {
+                    mseg.deleteCharAt(i);
+                    if (num2 == 0) {
+                        mseg.insert(i, "<b>");
+                        num2++;
+                    } else {
+                        mseg.insert(i, "</b>");
+                        num2 = 0;
+                    }
                 }
             }
-            msg = msg.replace("_", "<i>");
-            System.out.println(res);
-            System.out.println(msg);
+            System.out.println(mseg);
         }
     }
 }

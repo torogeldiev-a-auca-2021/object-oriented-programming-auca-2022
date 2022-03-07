@@ -7,5 +7,24 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../processing/core/library/core.jar!/" />
+          <root url="jar://$MODULE_DIR$/../processing/core/library/gluegen-rt.jar!/" />
+          <root url="jar://$MODULE_DIR$/../processing/core/library/jogl-all.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <NATIVE>
+          <root url="file://$MODULE_DIR$/../processing/core/library/linux-aarch64" />
+          <root url="file://$MODULE_DIR$/../processing/core/library/linux-amd64" />
+          <root url="file://$MODULE_DIR$/../processing/core/library/linux-arm" />
+          <root url="file://$MODULE_DIR$/../processing/core/library/macos-aarch64" />
+          <root url="file://$MODULE_DIR$/../processing/core/library/macos-x86_64" />
+          <root url="file://$MODULE_DIR$/../processing/core/library/windows-amd64" />
+        </NATIVE>
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>
