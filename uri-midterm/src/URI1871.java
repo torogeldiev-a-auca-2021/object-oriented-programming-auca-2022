@@ -14,9 +14,6 @@ public class URI1871 {
             String str = Integer.toString(result);
             String replace = str.replace("0", "");
             System.out.println(replace);
-
-
-
         }
     }
 }
