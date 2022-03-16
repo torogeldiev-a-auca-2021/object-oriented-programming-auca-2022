@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class URI2174 {
@@ -5,15 +6,22 @@ public class URI2174 {
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();
-        int result;
+        int res = 0,res2= 0;
+        int pok = 0;
         String[] a = new String[n];
-        for(int i = 0; i < n ; i++) {
+        for (int i = 0; i < n; i++) {
             a[i] = sc.next();
 
-//            if(a[i])
-//            result = 151 - n;
-
         }
-
+        for (int i = 0; i < a.length - 1; i++) {
+            Arrays.sort(a);
+            if (a[i].equals(a[i] + 1)){
+                res = 1;
+            }else {
+                res2++;
+            }
+        }
+        pok = 151 - res - res2 ;
+        System.out.println("Falta(m) " + pok + " pomekon(s).");
     }
 }
