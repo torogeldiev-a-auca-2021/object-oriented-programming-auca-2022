@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3aec97b4-47c6-41a2-aee1-fab895630706" name="Changes" comment="lab 03">
-      <change afterPath="$PROJECT_DIR$/uri-midterm/src/URI1222.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri-midterm/src/URI1277.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri-midterm/src/URI2157.java" afterDir="false" />
+    <list default="true" id="3aec97b4-47c6-41a2-aee1-fab895630706" name="Changes" comment="2157 solved">
+      <change afterPath="$PROJECT_DIR$/uri-midterm/src/URI2356.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uri-midterm/src/URI1581.java" beforeDir="false" afterPath="$PROJECT_DIR$/uri-midterm/src/URI1581.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uri-midterm/src/URI1277.java" beforeDir="false" afterPath="$PROJECT_DIR$/uri-midterm/src/URI1277.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uri-midterm/src/URI2062.java" beforeDir="false" afterPath="$PROJECT_DIR$/uri-midterm/src/URI2062.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uri-midterm/src/URI2174.java" beforeDir="false" afterPath="$PROJECT_DIR$/uri-midterm/src/URI2174.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,23 +50,23 @@
       <recent name="C:\Users\torogeldiev_a\IdeaProjects\object-oriented-programming-auca-2022\processing" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.URI2157">
-    <configuration name="URI1222" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="URI1222" />
+  <component name="RunManager" selected="Application.URI2356">
+    <configuration name="URI1277" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="URI1277" />
       <module name="uri-midterm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="URI1581" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="URI1581" />
+    <configuration name="URI1551" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="URI1551" />
       <module name="uri-midterm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="URI2157" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="URI2157" />
+    <configuration name="URI2062" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="URI2062" />
       <module name="uri-midterm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -80,8 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test" />
+    <configuration name="URI2356" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="URI2356" />
       <module name="uri-midterm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -89,10 +88,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.URI2157" />
-        <item itemvalue="Application.URI1581" />
-        <item itemvalue="Application.URI1222" />
-        <item itemvalue="Application.test" />
+        <item itemvalue="Application.URI2356" />
+        <item itemvalue="Application.URI2062" />
+        <item itemvalue="Application.URI1551" />
+        <item itemvalue="Application.URI1277" />
         <item itemvalue="Application.URI2174" />
       </list>
     </recent_temporary>
@@ -246,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647291007199</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="2157 solved">
+      <created>1647427223965</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1647427223965</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -278,6 +284,7 @@
     <MESSAGE value="1273 accepted" />
     <MESSAGE value="2253 solved" />
     <MESSAGE value="lab 03" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab 03" />
+    <MESSAGE value="2157 solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="2157 solved" />
   </component>
 </project>
