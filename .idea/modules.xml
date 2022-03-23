@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/experiment/experiment.iml" filepath="$PROJECT_DIR$/experiment/experiment.iml" />
       <module fileurl="file://$PROJECT_DIR$/lab-01-01/lab-01-01.iml" filepath="$PROJECT_DIR$/lab-01-01/lab-01-01.iml" />
       <module fileurl="file://$PROJECT_DIR$/lab-02-01/lab-02-01.iml" filepath="$PROJECT_DIR$/lab-02-01/lab-02-01.iml" />
       <module fileurl="file://$PROJECT_DIR$/lab-02-02/lab-02-02.iml" filepath="$PROJECT_DIR$/lab-02-02/lab-02-02.iml" />
       <module fileurl="file://$PROJECT_DIR$/lab-02-02-oop/lab-02-02-oop.iml" filepath="$PROJECT_DIR$/lab-02-02-oop/lab-02-02-oop.iml" />
       <module fileurl="file://$PROJECT_DIR$/lab-03-01/lab-03-01.iml" filepath="$PROJECT_DIR$/lab-03-01/lab-03-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab-03-02/lab-03-02.iml" filepath="$PROJECT_DIR$/lab-03-02/lab-03-02.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/object-oriented-programming-auca-2022.iml" filepath="$PROJECT_DIR$/.idea/object-oriented-programming-auca-2022.iml" />
       <module fileurl="file://$PROJECT_DIR$/uri-midterm/uri-midterm.iml" filepath="$PROJECT_DIR$/uri-midterm/uri-midterm.iml" />
     </modules>
