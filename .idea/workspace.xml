@@ -2,22 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3aec97b4-47c6-41a2-aee1-fab895630706" name="Changes" comment="2356 wrong answer">
-      <change afterPath="$PROJECT_DIR$/experiment/experiment.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experiment/src/BigIntegerExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experiment/src/autoboxing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-03-02/lab-03-02.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-03-02/src/BigRational.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri-midterm/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri-midterm/src/URI1262.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri-midterm/src/URI1367.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri-midterm/src/URI1768.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri-midterm/src/URI2484.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uri-midterm/src/URI2651.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uri-midterm/src/URI2694.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uri-midterm/src/URi1632.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uri-midterm/src/URI1277.java" beforeDir="false" afterPath="$PROJECT_DIR$/uri-midterm/src/URI1277.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uri-midterm/src/URI2062.java" beforeDir="false" afterPath="$PROJECT_DIR$/uri-midterm/src/URI2062.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uri-midterm/src/URI2174.java" beforeDir="false" afterPath="$PROJECT_DIR$/uri-midterm/src/URI2174.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uri-midterm/src/URI2356.java" beforeDir="false" afterPath="$PROJECT_DIR$/uri-midterm/src/URI2356.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +49,7 @@
       <recent name="C:\Users\torogeldiev_a\IdeaProjects\object-oriented-programming-auca-2022\processing" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.URI2694">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="lab-03-02" />
@@ -76,22 +64,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="URI1277" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="URI1277" />
+    <configuration name="URI2651" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="URI2651" />
       <module name="uri-midterm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="URI1768" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="URI1768" />
+    <configuration name="URI2694" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="URI2694" />
       <module name="uri-midterm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="URI2174" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="URI2174" />
+    <configuration name="URi1632" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="URi1632" />
       <module name="uri-midterm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -99,11 +87,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.URI2694" />
+        <item itemvalue="Application.URI2651" />
+        <item itemvalue="Application.URi1632" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.URI1262" />
-        <item itemvalue="Application.URI2174" />
-        <item itemvalue="Application.URI1277" />
-        <item itemvalue="Application.URI1768" />
       </list>
     </recent_temporary>
   </component>
