@@ -3,20 +3,17 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        sc.nextLine();
-        StringBuilder msg = new StringBuilder();
-        for (int i = 0; i < n; i++) {
-           String mes = sc.nextLine();
-           char  [] a = mes.toCharArray();
-            for (int j = 0; j < mes.length(); j++) {
-                if(a[j] >= 65 && a[j] <= 90 || a[j] >= 97 && a[j] <= 122) {
-                    a[j] += 3;
-                    msg.append(a[j]);
-                    msg.reverse();
+        while(sc.hasNextLine()){
+            int counter = 0;
+            String msg = sc.next();
+            String msg2 = sc.next();
+            char  [] a = msg.toCharArray();
+            char  [] b= msg2.toCharArray();
+            for (int i = 0; i < a.length; i++) {
+                for (int j = 0; j <b.length; j++) {
+
                 }
             }
         }
-        System.out.println(msg);
     }
 }
