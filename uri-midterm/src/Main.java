@@ -1,19 +1,30 @@
+
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        while(sc.hasNextLine()){
+        String res = "";
+        while (true) {
             int counter = 0;
-            String msg = sc.next();
-            String msg2 = sc.next();
-            char  [] a = msg.toCharArray();
-            char  [] b= msg2.toCharArray();
-            for (int i = 0; i < a.length; i++) {
-                for (int j = 0; j <b.length; j++) {
-
+            String msg = sc.nextLine();
+            if (msg.equals("0")) {
+                break;
+            }
+            String[] str = msg.split(" ");
+            for (int i = 0; i < str.length; i++) {
+                System.out.print(str[i].length());
+                if (i < str.length - 1) {
+                    System.out.print("-");
+                    for (int j = 1; j < str.length ; j++) {
+                        if(str[i].length() > str[j].length()){
+                            res = str[i];
+                        }
+                    }
                 }
             }
         }
+        System.out.println();
+        System.out.print("The biggest word:" + res);
     }
 }
