@@ -14,7 +14,7 @@ public class URI1222 {
                 a[i] = sc.next();
             }
             for (int i = 0; i < a.length; i++) {
-                if (amount + a[i].length() > chars){
+                if (a[i].length() > chars){
                    answerLine++;
                     amount = a[i].length();
                 }else {

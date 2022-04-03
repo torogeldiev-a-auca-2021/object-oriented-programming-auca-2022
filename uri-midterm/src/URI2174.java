@@ -6,22 +6,24 @@ public class URI2174 {
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();
-        int res = 0,res2= 0;
         int pok = 0;
+
         String[] a = new String[n];
         for (int i = 0; i < n; i++) {
             a[i] = sc.next();
+        }
+        int res = 0;
+        Arrays.sort(a);
+        for (int i = 0; i < a.length ; i++) {
+            for (int j = i + 1; j < a.length; j++) {
+                if (a[i].equals(a[j])) {
+                    res++;
+                    break;
+                }
+            }
 
         }
-        for (int i = 0; i < a.length - 1; i++) {
-            Arrays.sort(a);
-            if (a[i].equals(a[i] + 1)){
-                res = 1;
-            }else {
-                res2++;
-            }
-        }
-        pok = 151 - res - res2 ;
+        pok = 151 - n + res;
         System.out.println("Falta(m) " + pok + " pomekon(s).");
     }
 }

@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3aec97b4-47c6-41a2-aee1-fab895630706" name="Changes" comment="2484 solved">
+    <list default="true" id="3aec97b4-47c6-41a2-aee1-fab895630706" name="Changes" comment="2866 solved">
+      <change afterPath="$PROJECT_DIR$/experiment/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab-02-02-oopstyle/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uri-midterm/src/URI1024.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uri-midterm/src/URI1208.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uri-midterm/src/URI1248.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/uri-midterm/src/URI1262.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/uri-midterm/src/URI1367.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/uri-midterm/src/URI1768.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/uri-midterm/src/URI1873.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri-midterm/src/URI2866.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uri-midterm/src/URI1222.java" beforeDir="false" afterPath="$PROJECT_DIR$/uri-midterm/src/URI1222.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uri-midterm/src/URI1235.java" beforeDir="false" afterPath="$PROJECT_DIR$/uri-midterm/src/URI1235.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uri-midterm/src/URI1253.java" beforeDir="false" afterPath="$PROJECT_DIR$/uri-midterm/src/URI1253.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uri-midterm/src/URI1273.java" beforeDir="false" afterPath="$PROJECT_DIR$/uri-midterm/src/URI1273.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uri-midterm/src/URI1277.java" beforeDir="false" afterPath="$PROJECT_DIR$/uri-midterm/src/URI1277.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uri-midterm/src/URI1448.java" beforeDir="false" afterPath="$PROJECT_DIR$/uri-midterm/src/URI1448.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uri-midterm/src/URI2174.java" beforeDir="false" afterPath="$PROJECT_DIR$/uri-midterm/src/URI2174.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uri-midterm/src/URI2694.java" beforeDir="false" afterPath="$PROJECT_DIR$/uri-midterm/src/URI2694.java" afterDir="false" />
     </list>
@@ -55,9 +63,30 @@
       <recent name="C:\Users\torogeldiev_a\IdeaProjects\object-oriented-programming-auca-2022\processing" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.URI2866">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Main (3)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="experiment" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="lab-03-01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="lab-02-02-oopstyle" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="URI1273" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="URI1273" />
       <module name="uri-midterm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -70,34 +99,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="URI2062" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="URI2062" />
-      <module name="uri-midterm" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="URI2484" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="URI2484" />
-      <module name="uri-midterm" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="URI2866" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="URI2866" />
-      <module name="uri-midterm" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.URI2866" />
-        <item itemvalue="Application.URI2484" />
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.URI1277" />
-        <item itemvalue="Application.URI2062" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.URI1273" />
       </list>
     </recent_temporary>
   </component>
@@ -292,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648539503779</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="2866 solved">
+      <created>1648546258153</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1648546258153</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -330,6 +345,7 @@
     <MESSAGE value="1243 wrong ansswer" />
     <MESSAGE value="2062 solved" />
     <MESSAGE value="2484 solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="2484 solved" />
+    <MESSAGE value="2866 solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="2866 solved" />
   </component>
 </project>

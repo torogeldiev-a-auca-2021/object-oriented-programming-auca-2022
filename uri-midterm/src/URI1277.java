@@ -9,12 +9,17 @@ public class URI1277 {
         double p = 0, m = 0;
         for (int i = 0; i < t; i++) {
             int number = sc.nextInt();
+            sc.nextLine();
+            String[] students = new String[number];
+            String[] marks = new String[number];
             for (int j = 0; j < number; j++) {
-                String students = sc.nextLine();
-                String marks = sc.nextLine();
-                result = marks.codePointCount(0, marks.length());
-                char[] r = marks.toCharArray();
-                for (int k = 0; k < marks.length(); k++) {
+                students[i] = sc.next();
+            }
+            for (int j = 0; j < number; j++) {
+                marks[i] = sc.next();
+                result = marks[i].codePointCount(0, marks[i].length());
+                char[] r = marks[i].toCharArray();
+                for (int k = 0; k < marks[i].length(); k++) {
                     if (r[k] == 'P') {
                         p++;
                     }
@@ -22,15 +27,16 @@ public class URI1277 {
                         m++;
 
                     }
-                    answer = p /( result - m);
-                    }
-                    if (answer < 0.75){
-                        System.out.println(students);
-                    }
-                    if (answer >= 0.75) {
-                        System.out.println();
-                    }
+                }
+                answer = p / (result - m);
+                if (answer < 0.75) {
+                    System.out.println(students[i]);
+                }
+                if (answer >= 0.75) {
+                    System.out.println();
                 }
             }
+
         }
     }
+}
