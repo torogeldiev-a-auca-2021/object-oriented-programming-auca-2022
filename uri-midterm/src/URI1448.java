@@ -13,18 +13,18 @@ public class URI1448 {
             String second = sc.nextLine();
             int index1 = -1, index2 = -1;
 
-            for (int j = 0; j < init.length(); j++) {
+            for (int j = 0; j < first.length(); j++) {
                 if (init.charAt(j) == first.charAt(j)) {
                     counter1++;
                 } else {
-                    if (index1 == -1 || index1 == index2) {
+                    if (index1 == -1 && second.charAt(j) == init.charAt(j)) {
                         index1 = j;
                     }
                 }
                 if (init.charAt(j) == second.charAt(j)) {
                     counter2++;
                 } else {
-                    if (index2 == -1 || index1 == index2) {
+                    if (index2 == -1 && first.charAt(j) == init.charAt(j)) {
                         index2 = j;
                     }
                 }
@@ -47,6 +47,8 @@ public class URI1448 {
                     System.out.println("empate");
                 }
             }
+            System.out.println();
+
         }
     }
 }

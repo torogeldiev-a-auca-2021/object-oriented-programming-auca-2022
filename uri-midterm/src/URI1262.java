@@ -3,30 +3,35 @@ import java.util.Scanner;
 public class URI1262 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        while(sc.hasNextLine()){
+        while (sc.hasNext()) {
             String msg = sc.next();
             int a = sc.nextInt();
-            int w = 0, r = 0,counter = 0, sum = 0;
-            char  [] s = msg.toCharArray();
+            int res = 0;
+            char[] s = msg.toCharArray();
             for (int i = 0; i < s.length; i++) {
-                if(s[i]== 'W'){
-                    w++;
+                if (s[i] == 'W') {
+                    res++;
                 }
-                if(s[i] == 'R'){
-                    while (s[i] == 'R'){
+                if (s[i] == 'R') {
+                    int counter = 0;
+                    while (s[i] == 'R') {
+                        if (i == msg.length() - 1) {
+                            res++;
+                            break;
+                        }
                         counter++;
-                        if(counter == a){
-                            r++;
+                        if (counter == a) {
+                            res++;
                             break;
                         }
                         i++;
                     }
+                    if (s[i] == 'W') {
+                        res+=2;
+                    }
                 }
-
             }
-
-            sum = w + r;
-            System.out.println(sum);
+            System.out.println(res);
         }
     }
 }

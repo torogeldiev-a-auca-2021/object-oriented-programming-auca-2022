@@ -5,21 +5,23 @@ public class URI1277 {
         Scanner sc = new Scanner(System.in);
 
         int t = sc.nextInt();
-        double result = 0, answer = 0;
-        double p = 0, m = 0;
+
         for (int i = 0; i < t; i++) {
+
             int number = sc.nextInt();
-            sc.nextLine();
             String[] students = new String[number];
             String[] marks = new String[number];
             for (int j = 0; j < number; j++) {
-                students[i] = sc.next();
+                students[j] = sc.next();
             }
+            boolean b = false;
             for (int j = 0; j < number; j++) {
-                marks[i] = sc.next();
-                result = marks[i].codePointCount(0, marks[i].length());
-                char[] r = marks[i].toCharArray();
-                for (int k = 0; k < marks[i].length(); k++) {
+                double answer = 0;
+                int p = 0, m = 0;
+                marks[j] = sc.next();
+                int length = marks[j].length();
+                char[] r = marks[j].toCharArray();
+                for (int k = 0; k < length; k++) {
                     if (r[k] == 'P') {
                         p++;
                     }
@@ -28,14 +30,17 @@ public class URI1277 {
 
                     }
                 }
-                answer = p / (result - m);
+                answer = (double) p / (length - m);
                 if (answer < 0.75) {
-                    System.out.println(students[i]);
+                    if(b){
+                        System.out.print(" ");
+                    }
+                    System.out.print(students[j]);
+                    b = true;
                 }
-                if (answer >= 0.75) {
-                    System.out.println();
-                }
+
             }
+            System.out.println();
 
         }
     }

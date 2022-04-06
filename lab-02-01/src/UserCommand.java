@@ -20,9 +20,8 @@ public class UserCommand {
         }
 
         Scanner lineInp = new Scanner(line);
-        name = lineInp.next();
-
-        if (!name.equals("Move")) {
+        String isko = lineInp.next();
+        if (!isko.equals("Move")) {
             throw new RuntimeException("Incorrect command: '" + line + "'");
         }
         if (!lineInp.hasNextInt()) {
@@ -36,6 +35,8 @@ public class UserCommand {
         if(lineInp.hasNext()) {
             throw new RuntimeException("Too many arguments in command: '" + line + "'");
         }
+        name = isko;
+        this.numberOfSteps = numberOfSteps;
     }
 
     public String getName() {

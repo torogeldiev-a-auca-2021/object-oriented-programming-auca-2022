@@ -3,28 +3,31 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String res = "";
-        while (true) {
-            int counter = 0;
+     Scanner sc = new Scanner(System.in);
+     int   t = sc.nextInt();
+        for (int i = 0; i < t; i++) {
             String msg = sc.nextLine();
-            if (msg.equals("0")) {
-                break;
+            char [] a = msg.toCharArray();
+            boolean b = false;
+            int counter = 0;
+
+            for (int j = 0; j < msg.length(); j++) {
+             if(a[j] >= 65 && a[j] <= 90 || a[j] >= 97 && a[j] <= 122){
+                 b = true;
+                     counter++;
+             }
+
             }
-            String[] str = msg.split(" ");
-            for (int i = 0; i < str.length; i++) {
-                System.out.print(str[i].length());
-                if (i < str.length - 1) {
-                    System.out.print("-");
-                    for (int j = 1; j < str.length ; j++) {
-                        if(str[i].length() > str[j].length()){
-                            res = str[i];
-                        }
-                    }
-                }
+            if(b) {
+                System.out.println("frase completa");
             }
+            if(counter > 13){
+                System.out.println("frase quase completa");
+            }else {
+                System.out.println("frase mal elaborada");
+            }
+
         }
-        System.out.println();
-        System.out.print("The biggest word:" + res);
+
     }
 }
