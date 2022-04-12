@@ -12,20 +12,15 @@ public class URI1087 {
             if(x == 0 && y == 0 && x1 == 0 && y1 == 0 ){
                 break;
             }
-            else {
-                if(x == x1 && y == y1){
-                    System.out.println(0);
-                }
-                 else if(x != x1  || y != y1 ){
-                    System.out.println(2);
-                }
-                else if(x == x1 && y != y1 || y == y1 && x != x1){
-                    System.out.println(1);
-                }
-                else{
-                    System.out.println(1);
-                }
-            }
+           if(x == x1 && y == y1){
+               System.out.println(0);
+           }
+           if(Math.abs(x) == 3){
+               System.out.println(1);
+           }
+           if(x != x1 && y != y1){
+               System.out.println(2);
+           }
         }
     }
 }

@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3aec97b4-47c6-41a2-aee1-fab895630706" name="Changes" comment="1329 solved">
-      <change afterPath="$PROJECT_DIR$/uri-final/src/URI1217.java" afterDir="false" />
+    <list default="true" id="3aec97b4-47c6-41a2-aee1-fab895630706" name="Changes" comment="1217 solved">
+      <change afterPath="$PROJECT_DIR$/lab-05/lab-05.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uri-final/src/URI1171.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uri-final/src/URI1218.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uri-final/src/URI1087.java" beforeDir="false" afterPath="$PROJECT_DIR$/uri-final/src/URI1087.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uri-final/src/URI1217.java" beforeDir="false" afterPath="$PROJECT_DIR$/uri-final/src/URI1217.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uri-final/src/URI1329.java" beforeDir="false" afterPath="$PROJECT_DIR$/uri-final/src/URI1329.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="package-info" />
       </list>
     </option>
   </component>
@@ -50,17 +57,29 @@
       <recent name="C:\Users\torogeldiev_a\IdeaProjects\object-oriented-programming-auca-2022\processing" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.URI1217">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="object" />
+      <option name="MAIN_CLASS_NAME" value="p02.Main" />
+      <module name="lab-05" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="lab-03-01" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p01.Main" />
+      <module name="lab-05" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -79,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="URI1329" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="URI1329" />
+    <configuration name="URI1218" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="URI1218" />
       <module name="uri-final" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.URI1217" />
-        <item itemvalue="Application.URI1329" />
-        <item itemvalue="Application.URI1087" />
-        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.URI1087" />
+        <item itemvalue="Application.URI1218" />
+        <item itemvalue="Application.URI1217" />
       </list>
     </recent_temporary>
   </component>
@@ -308,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649274571810</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="1217 solved">
+      <created>1649277913276</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1649277913276</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -324,7 +350,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="gitignore" />
     <MESSAGE value="1234 solved" />
     <MESSAGE value="1253 wrong answer" />
     <MESSAGE value="1168 accepted" />
@@ -349,6 +374,7 @@
     <MESSAGE value="2866 solved" />
     <MESSAGE value="." />
     <MESSAGE value="1329 solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="1329 solved" />
+    <MESSAGE value="1217 solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="1217 solved" />
   </component>
 </project>

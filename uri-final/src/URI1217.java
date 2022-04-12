@@ -22,7 +22,7 @@ public class URI1217 {
             money += m / n;
             System.out.println("day " + i + ":" + " " + counter + " kg");
         }
-        System.out.printf("%.2f kg by day\n" , kg);
+        System.out.printf("%.2f kg by day\n" , kg)  ;
         System.out.printf("R$ %.2f by day" , money);
         System.out.println();
     }
