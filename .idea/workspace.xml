@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3aec97b4-47c6-41a2-aee1-fab895630706" name="Changes" comment="1217 solved">
-      <change afterPath="$PROJECT_DIR$/lab-05/lab-05.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri-final/src/URI1171.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri-final/src/URI1218.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="3aec97b4-47c6-41a2-aee1-fab895630706" name="Changes" comment="lab-05">
+      <change afterPath="$PROJECT_DIR$/lab-05/src/p03/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab-05/src/p04/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab-05/src/p05/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uri-final/src/URI1245.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uri-final/src/URI1087.java" beforeDir="false" afterPath="$PROJECT_DIR$/uri-final/src/URI1087.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uri-final/src/URI1217.java" beforeDir="false" afterPath="$PROJECT_DIR$/uri-final/src/URI1217.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uri-final/src/URI1329.java" beforeDir="false" afterPath="$PROJECT_DIR$/uri-final/src/URI1329.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="package-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -334,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649277913276</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="lab-05">
+      <created>1649779845428</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1649779845428</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -350,7 +354,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1234 solved" />
     <MESSAGE value="1253 wrong answer" />
     <MESSAGE value="1168 accepted" />
     <MESSAGE value="1253 accepted" />
@@ -375,6 +378,7 @@
     <MESSAGE value="." />
     <MESSAGE value="1329 solved" />
     <MESSAGE value="1217 solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="1217 solved" />
+    <MESSAGE value="lab-05" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab-05" />
   </component>
 </project>
