@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3aec97b4-47c6-41a2-aee1-fab895630706" name="Changes" comment="lab-05">
-      <change afterPath="$PROJECT_DIR$/lab-05/src/p03/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-05/src/p04/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-05/src/p05/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri-final/src/URI1245.java" afterDir="false" />
+    <list default="true" id="3aec97b4-47c6-41a2-aee1-fab895630706" name="Changes" comment="lecture 11 material 1514 solved 1245 solved">
+      <change afterPath="$PROJECT_DIR$/lab-05/src/p06/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab-05/src/p07/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab-05/src/p08/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab-05/src/p09/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab-05/src/p09/Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-01/src/part1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uri-final/src/URI1318.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uri-final/src/URI1437.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uri-final/src/URI1533.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,13 +60,26 @@
       <recent name="C:\Users\torogeldiev_a\IdeaProjects\object-oriented-programming-auca-2022\processing" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="p02.Main" />
       <module name="lab-05" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="p02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p09.Main" />
+      <module name="lab-05" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p09.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,34 +100,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="URI1087" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="URI1087" />
+    <configuration name="Sanjik" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sanjik" />
       <module name="uri-final" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="URI1217" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="URI1217" />
-      <module name="uri-final" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="URI1218" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="URI1218" />
-      <module name="uri-final" />
+    <configuration name="part1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="part1" />
+      <module name="project-01" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.part1" />
+        <item itemvalue="Application.Sanjik" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.URI1087" />
-        <item itemvalue="Application.URI1218" />
-        <item itemvalue="Application.URI1217" />
       </list>
     </recent_temporary>
   </component>
@@ -338,7 +350,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649779845428</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="lecture 11 material 1514 solved 1245 solved">
+      <created>1650309090631</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1650309090631</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -354,7 +373,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1253 wrong answer" />
     <MESSAGE value="1168 accepted" />
     <MESSAGE value="1253 accepted" />
     <MESSAGE value="1238 runtime error" />
@@ -379,6 +397,7 @@
     <MESSAGE value="1329 solved" />
     <MESSAGE value="1217 solved" />
     <MESSAGE value="lab-05" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab-05" />
+    <MESSAGE value="lecture 11 material 1514 solved 1245 solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="lecture 11 material 1514 solved 1245 solved" />
   </component>
 </project>
