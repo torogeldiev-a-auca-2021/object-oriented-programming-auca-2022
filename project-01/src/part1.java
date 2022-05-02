@@ -7,17 +7,22 @@ public class part1 {
         int [][] board = new int[4][4];
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 4; j++) {
-                if(i == 1 && j == 1 ){
-                    board[i][j] = 0;
-                }
-                 else if(i == 2 && j == 2 ){
-                    board[i][j] = 0;
-                }
-                else {
-                    board[i][j] = 1;
-                }
+                int x = sc.nextInt();
+                board[i][j] = x;
+                System.out.printf("%5d", board[i][j]);
+            }
+            System.out.println();
+        }
+
+    }
+
+    public void  print(int row , int col, int num){
+        for (int i = 0; i < 4; i++) {
+            for (int j = 0; j < 4; j++) {
+
             }
         }
-        System.out.println(board);
+
     }
 }
+
