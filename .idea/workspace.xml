@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3aec97b4-47c6-41a2-aee1-fab895630706" name="Changes" comment="lab05 uri-problems solved for checkpoint">
-      <change afterPath="$PROJECT_DIR$/uri-final/src/URI1196.java" afterDir="false" />
+    <list default="true" id="3aec97b4-47c6-41a2-aee1-fab895630706" name="Changes" comment="1196 solved">
+      <change afterPath="$PROJECT_DIR$/lab-06/src/prototype01/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab-06/src/prototype01/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab-06/src/prototype02/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab-06/src/prototype02/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab-06/src/prototype02/Rect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab-06/src/prototype03/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab-06/src/prototype03/Figure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab-06/src/prototype03/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab-06/src/prototype03/Rect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uri-final/src/URI1300.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uri-final/src/URI1558.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-01/src/part1.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-01/src/part1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,20 +61,7 @@
       <recent name="C:\Users\torogeldiev_a\IdeaProjects\object-oriented-programming-auca-2022\processing" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.URI1196">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="p02.Main" />
-      <module name="lab-05" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="p02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.URI1534">
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="p09.Main" />
       <module name="lab-05" />
@@ -93,6 +89,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="URI1534" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="URI1534" />
+      <module name="uri-final" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="part1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="part1" />
       <module name="project-01" />
@@ -102,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.URI1534" />
         <item itemvalue="Application.URI1196" />
         <item itemvalue="Application.part1" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Sanjik" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -350,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650985524293</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="1196 solved">
+      <created>1651492021228</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1651492021228</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -366,7 +376,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1253 accepted" />
     <MESSAGE value="1238 runtime error" />
     <MESSAGE value="1238 solved" />
     <MESSAGE value="1241 wrong answer" />
@@ -391,6 +400,7 @@
     <MESSAGE value="lab-05" />
     <MESSAGE value="lecture 11 material 1514 solved 1245 solved" />
     <MESSAGE value="lab05 uri-problems solved for checkpoint" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab05 uri-problems solved for checkpoint" />
+    <MESSAGE value="1196 solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="1196 solved" />
   </component>
 </project>
