@@ -16,15 +16,15 @@ public class Main {
         }
         int userCmd = inp.nextInt();
         switch (userCmd){
-//            case 0:
-//                game.moveLeft();
-//                break;
-//            case 2:
-//                game.moveRight();
-//                break;
-//            case 1:
-//                game.moveUp();
-//                break;
+            case 0:
+                game.moveLeft();
+                break;
+            case 2:
+                game.moveRight();
+                break;
+            case 1:
+                game.moveUp();
+                break;
             case 3:
                 game.moveDown();
                 break;

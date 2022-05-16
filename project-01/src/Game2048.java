@@ -31,7 +31,72 @@ class Game2048 {
             System.out.println();
         }
     }
+    public void moveLeft() {
+        for (int r = 0; r < 4; r++) {
+            for (int c = 3; c > 0; c--) {
+                if (data[r][c - 1] == data[r][c]) {
+                    data[r][c - 1] *= 2;
+                    data[r][c] = 0;
+                }
+                if (data[r][c - 1] == 0) {
+                    data[r][c - 1] = data[r][c];
+                    data[r][c] = 0;
+                }
 
+            }
+            for (int c = 3; c > 0; c--) {
+                if (data[r][c - 1] == 0) {
+                    data[r][c - 1] = data[r][c];
+                    data[r][c] = 0;
+                }
+            }
+        }
+    }
+
+    public void moveRight() {
+        for (int r = 0; r < 4; r++) {
+            for (int c = 0; c < 3; c++) {
+                if (data[r][c + 1] == 0) {
+                    data[r][c + 1] = data[r][c];
+                    data[r][c] = 0;
+                }
+            }
+            for (int c = 3; c > 0; c--) {
+                if (data[r][c - 1] == data[r][c]) {
+                    data[r][c] *= 2;
+                    data[r][c - 1] = 0;
+                }
+
+            }
+            for (int c = 0; c < 3; c++) {
+                if (data[r][c + 1] == 0) {
+                    data[r][c + 1] = data[r][c];
+                    data[r][c] = 0;
+                }
+            }
+        }
+    }
+
+    public void moveUp() {
+        for (int c = 0; c < 4; c++) {
+            for (int r = 0; r < 3; r++) {
+                if (data[r][c] == 0) {
+                    data[r][c] = data[r + 1][c];
+                    data[r + 1][c] = 0;
+                }
+                if (data[r + 1][c] == data[r][c]) {
+                    data[r + 1][c] = 2 * data[r][c];
+                    data[r][c] = 0;
+                }
+            }
+            for (int r = 0; r < 3; r++) {
+                if (data[r][c] == 0) {
+                    data[r][c] = data[r + 1][c];
+                    data[r + 1][c] = 0;
+                }
+            }
+        }
+    }
 
 
 

@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3aec97b4-47c6-41a2-aee1-fab895630706" name="Changes" comment="2 uri solved lab-06 finished">
-      <change afterPath="$PROJECT_DIR$/lab-06/lab-06.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-01/src/Game2048.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-01/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri-final/src/URI1285.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri-final/src/URI1574.java" afterDir="false" />
+    <list default="true" id="3aec97b4-47c6-41a2-aee1-fab895630706" name="Changes" comment="3 uri solved and some word with ptoject-01">
+      <change afterPath="$PROJECT_DIR$/lab-08/lab-08.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab-08/src/p01/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab-08/src/p02/CircleWithException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab-08/src/p03/CircleWithException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab-08/src/p03/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab-08/src/p04/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-01/src/part1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-01/src/Game2048.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-01/src/Game2048.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-01/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-01/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -359,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651772773088</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="3 uri solved and some word with ptoject-01">
+      <created>1652720622908</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1652720622908</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -375,7 +385,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1238 solved" />
     <MESSAGE value="1241 wrong answer" />
     <MESSAGE value="&#10; 1241 Time limit exceeded" />
     <MESSAGE value="01" />
@@ -400,6 +409,7 @@
     <MESSAGE value="lab05 uri-problems solved for checkpoint" />
     <MESSAGE value="1196 solved" />
     <MESSAGE value="2 uri solved lab-06 finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="2 uri solved lab-06 finished" />
+    <MESSAGE value="3 uri solved and some word with ptoject-01" />
+    <option name="LAST_COMMIT_MESSAGE" value="3 uri solved and some word with ptoject-01" />
   </component>
 </project>
