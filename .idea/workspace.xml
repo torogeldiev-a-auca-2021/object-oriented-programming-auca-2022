@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3aec97b4-47c6-41a2-aee1-fab895630706" name="Changes" comment="1196 solved">
-      <change afterPath="$PROJECT_DIR$/lab-06/src/prototype01/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-06/src/prototype01/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-06/src/prototype02/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-06/src/prototype02/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-06/src/prototype02/Rect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-06/src/prototype03/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-06/src/prototype03/Figure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-06/src/prototype03/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-06/src/prototype03/Rect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri-final/src/URI1300.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri-final/src/URI1558.java" afterDir="false" />
+    <list default="true" id="3aec97b4-47c6-41a2-aee1-fab895630706" name="Changes" comment="2 uri solved lab-06 finished">
+      <change afterPath="$PROJECT_DIR$/lab-06/lab-06.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-01/src/Game2048.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-01/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uri-final/src/URI1285.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uri-final/src/URI1574.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-01/src/part1.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +43,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tt/src" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -57,33 +52,30 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Пользователь\IdeaProjects\object-oriented-programming-auca-2022\tt\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\torogeldiev_a\IdeaProjects\object-oriented-programming-auca-2022\processing" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.URI1534">
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="p09.Main" />
-      <module name="lab-05" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="p09.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sanjik" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sanjik" />
-      <module name="uri-final" />
+  <component name="RunManager" selected="Application.URI1285">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="project-01" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="URI1196" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="URI1196" />
+      <module name="uri-final" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="URI1285" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="URI1285" />
       <module name="uri-final" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -105,11 +97,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.URI1285" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.part1" />
         <item itemvalue="Application.URI1534" />
         <item itemvalue="Application.URI1196" />
-        <item itemvalue="Application.part1" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Sanjik" />
       </list>
     </recent_temporary>
   </component>
@@ -360,7 +352,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651492021228</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="2 uri solved lab-06 finished">
+      <created>1651772773088</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1651772773088</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -376,7 +375,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1238 runtime error" />
     <MESSAGE value="1238 solved" />
     <MESSAGE value="1241 wrong answer" />
     <MESSAGE value="&#10; 1241 Time limit exceeded" />
@@ -401,6 +399,7 @@
     <MESSAGE value="lecture 11 material 1514 solved 1245 solved" />
     <MESSAGE value="lab05 uri-problems solved for checkpoint" />
     <MESSAGE value="1196 solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="1196 solved" />
+    <MESSAGE value="2 uri solved lab-06 finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 uri solved lab-06 finished" />
   </component>
 </project>
