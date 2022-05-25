@@ -1,5 +1,7 @@
 package prototype03;
 
+import java.awt.*;
+
 public abstract class Figure {
 
     protected int x;
@@ -10,4 +12,5 @@ public abstract class Figure {
     }
     public abstract boolean contains(int x, int y);
 
+    protected abstract void draw(Graphics g);
 }
